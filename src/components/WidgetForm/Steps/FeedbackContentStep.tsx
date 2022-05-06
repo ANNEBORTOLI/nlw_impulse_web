@@ -4,7 +4,7 @@ import { FeedbackType, feedbackTypes } from '..';
 import { api } from '../../../lib/api';
 import { CloseButton } from '../../CloseButton';
 import { Loading } from '../../Loading';
-import { ScreenshotButton } from '../ScreenShotButton';
+import { ScreenshotButton } from '../ScreenshotButton';
 
 interface FeedbackContentStepProps {
   feedbackType: FeedbackType;
